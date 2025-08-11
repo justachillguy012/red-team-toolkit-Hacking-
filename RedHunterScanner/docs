@@ -1,66 +1,43 @@
-RedHunterScanner — What It Is & How It Works
-What is RedHunterScanner?
-It’s a powerful, multi-threaded security tool with a graphical interface that helps you check a target website or network for common vulnerabilities. Instead of a boring command line, it uses a simple UI so anyone with basic skills can run it fast and see results clearly.
+# RedHunterScanner —
 
-Where and When to Use It?
-Use it only on websites or networks you own or have explicit permission to test.
+### What Is RedHunterScanner?  
+RedHunterScanner is a powerful, multi-threaded vulnerability scanner with a user-friendly graphical interface. It helps you quickly identify security weaknesses in websites and networks with precision and clarity.
 
-Perfect for small businesses, developers, or security students wanting to learn or audit their own setups.
+---
 
-Works on any system with Python (Windows, Linux, Mac) and can be converted into an .exe for Windows ease.
+### Where Does It Serve?  
+Designed to be used on websites and networks you own or have explicit permission to test. Suitable for developers, security professionals, and small business owners. Compatible with Windows, Linux, and macOS, with the option to create a portable Windows executable.
 
-What Does It Do?
-The scanner works in two main ways:
+---
 
-Network Scan:
+### What It Detects  
+- **Network Reconnaissance:** Scans ports to identify open services and gather basic banner information.  
+- **Directory Discovery:** Searches for hidden directories and pages using a wordlist.  
+- **SQL Injection:** Tests URL parameters and form inputs for SQL injection vulnerabilities.  
+- **Cross-Site Scripting (XSS):** Checks for reflected scripts that could enable code injection attacks.  
+- **Local File Inclusion (LFI):** Attempts to access sensitive server files through input manipulation.
 
-Scans a range of ports on the target to find which services are open.
+---
 
-Tries to grab banners or basic info about running services (like HTTP server versions).
+### How To Use RedHunterScanner  
+1. Launch the application interface.  
+2. Enter the target URL or IP address.  
+3. Specify the port range or use the default.  
+4. Select the scan types to run (network, web vulnerabilities, or both).  
+5. Optionally, load a custom wordlist for expanded directory discovery.  
+6. Click “Start Scan” to begin. Monitor live output for results.  
+7. Review identified vulnerabilities and export reports as needed.
 
-Helps find exposed entry points that attackers might exploit.
+---
 
-Web Vulnerability Scan:
+### Why Use This Tool  
+RedHunterScanner automates the process of discovering vulnerabilities, saving time and reducing manual errors. Its multi-threaded scanning ensures fast results, while the GUI makes it accessible to users of all skill levels. It helps you proactively secure your systems before attackers can exploit weaknesses.
 
-Crawls the target website to find hidden directories/pages using a wordlist.
+---
 
-Checks for SQL Injection by injecting special payloads into URL parameters and forms, looking for error messages or unusual responses.
+### Important Notes  
+- Use only on targets you own or have explicit permission to test.  
+- Scanning may increase server load; use responsibly.  
+- This tool provides preliminary vulnerability detection and should be part of a broader security assessment.
 
-Tests for Cross-Site Scripting (XSS) by sending scripts in inputs and seeing if they are reflected back, which could allow attackers to run malicious code.
-
-Attempts Local File Inclusion (LFI) vulnerabilities by trying to access sensitive files (like /etc/passwd) through URL inputs or forms.
-
-Gathers forms and links automatically to maximize the attack surface coverage.
-
-How To Use It?
-Open the scanner app.
-
-Type or paste the URL or IP you want to check in the target box.
-
-Define which ports to scan (or leave defaults).
-
-Choose which scans to run (network, web vuln, or both).
-
-Optionally, add your own wordlist for directory discovery (helps find more hidden pages).
-
-Hit Start Scan. The scanner will run multi-threaded checks and show results live.
-
-Review output for vulnerabilities found and export results if needed.
-
-Why This Matters
-Manual testing is slow and error-prone. This scanner automates the grunt work, letting you find weak spots quickly.
-
-Multi-threading speeds up scans, making it practical even on large sites or port ranges.
-
-The GUI lowers the barrier so beginners or non-experts can still use professional techniques.
-
-Helps developers fix security issues before hackers find them.
-
-Important Notes
-This tool is for ethical use only. Don’t scan sites without permission.
-
-Some scans can cause server load; use responsibly and during off-peak hours.
-
-Results are not a full security audit but a helpful first step.
-
-
+---
