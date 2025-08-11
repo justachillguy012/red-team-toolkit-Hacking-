@@ -15,7 +15,6 @@ Detects:
 - Works on Windows, macOS, and Linux (Python version).
 - **Portable `.exe` version** available for Windows (no Python required).
 
----
 ## Installation (Python Script Version)
 1. **Clone the repository:**
    ```bash
