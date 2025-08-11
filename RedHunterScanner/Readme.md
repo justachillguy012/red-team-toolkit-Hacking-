@@ -22,4 +22,5 @@ Detects:
    ```bash
    git clone https://github.com/justachillguy012/red-team-toolkit-Hacking-.git
    cd red-team-toolkit-Hacking-/RedHunterScanner
-
+   pip install -r requirements.txt
+   python RedHunterScanner.py
