@@ -16,7 +16,6 @@ Detects:
 - **Portable `.exe` version** available for Windows (no Python required).
 
 ---
-
 ## Installation (Python Script Version)
 1. **Clone the repository:**
    ```bash
@@ -24,6 +23,7 @@ Detects:
    cd red-team-toolkit-Hacking-/RedHunterScanner
    pip install -r requirements.txt
    python main.py
+
 
 ## Collaborators
 
