@@ -24,3 +24,12 @@ Detects:
    cd red-team-toolkit-Hacking-/RedHunterScanner
    pip install -r requirements.txt
    python main.py
+
+## Collaborators
+
+This project was developed by:
+
+- [**Daniel (justachillguy012)**](https://github.com/justachillguy012) — Lead Developer, responsible for the core network scanning engine, vulnerability detection logic, and overall architecture.  
+- [**Mansu (Stranger-web-png)**](https://github.com/Stranger-web-png) — UI/UX Designer and Web Vulnerability Scanner developer, focused on the graphical interface and web vulnerability modules.
+
+Special thanks to Mansu for his valuable contributions to the project’s usability and web scanning features.
