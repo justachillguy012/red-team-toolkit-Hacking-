@@ -23,7 +23,6 @@ Detects:
 - Easy-to-use **Graphical Interface**.
 - Multi-threaded for faster scanning.
 - Works on Windows, macOS, and Linux (Python version).
-- **Portable `.exe` version** available for Windows (no Python required).
 
 ---
 
